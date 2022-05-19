@@ -1,0 +1,28 @@
+<h2>Currency Converter</h2>
+<div>
+    <mat-form-field appearance="fill">
+        <mat-label>Input</mat-label>
+        <input matInput [(ngModel)]="inputValue"/>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-select [(value)]="currencyInput">
+            <mat-option value="USD">USD</mat-option>
+            <mat-option value="EUR">EUR</mat-option>
+            <mat-option value="UAH">UAH</mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>
+<mat-icon style="transform: rotate(90deg)" class="icon">compare_arrows</mat-icon>
+<div>
+    <mat-form-field appearance="fill">
+        <mat-label>Output</mat-label>
+        <input matInput [(ngModel)]="outputValue">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-select [(value)]="currencyOutput">
+            <mat-option value="USD">USD</mat-option>
+            <mat-option value="EUR">EUR</mat-option>
+            <mat-option value="UAH">UAH</mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>
