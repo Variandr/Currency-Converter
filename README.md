@@ -1,4 +1,4 @@
-# CurrencyConverter (Angular)
+# Currency Converter (Angular)
 
 The app was created using:
 
